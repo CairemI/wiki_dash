@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="congrid.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Roboto+Slab:wght@600&display=swap"
+    rel="stylesheet">
+  <style>
+   
+    .dropbtn {
+      background-color: #00ff00;
+      color: white;
+      padding: 20px;
+      font-size: 20px;
+      border: none;
+      cursor: pointer;
+      width: 200px;
+      height: 100px;
+      background-color: #00ff00;
+      position: relative;
+      animation-name: example;
+      animation-duration: 0.54s;
+      animation-iteration-count: 3;
+    }
+
+    @keyframes example {
+      0% {
+        left: 0px;
+        top: 0px;
+      }
+
+      50% {
+        left: 0px;
+        top: -30px;
+      }
+
+      100% {
+        left: 0px;
+        top: 0px;
+      }
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      width: 100%;
+      /*display: grid;*/
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+
+      /* display: flex;
+  justify-content:center ;*/
+
+    }
+
+    .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
+
+    .CAJA2 a:link,
+    a:visited {
+      background-color: #36f436;
+      color: rgb(0, 0, 0);
+      padding: 14px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .CAJA2 a:hover,
+    a:active {
+      background-color: rgb(0, 255, 0);
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="padre">
+
+    <div class="CAJA1">
+      <img src="imagenes/cubito.jpg" alt="">
+    </div>
+
+
+
+    <DIV class="CAJA2">
+      <div class="dropdown">
+        <button class="dropbtn">Jugabilidad</button>
+        <div class="dropdown-content">
+          <a href="#modos">modos de juego</a>
+          <a href="#recompensas">recompensas</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Niveles de Usuario</button>
+        <div class="dropdown-content">
+          <a href="#editor">Editor de niveles</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Caracteristicas de los Niveles</button>
+        <div class="dropdown-content">
+          <a href="#duracion">Duracion de Niveles</a>
+          <a href="#publicacion">Publicacion de Niveles</a>
+        </div>
+      </div>
+
+
+      <div class="dropdown">
+        <button class="dropbtn">Otros juegos</button>
+        <div class="dropdown-content derecha">
+          <a href="#lite">Geometry Dash Lite</a>
+          <a href="#down">Geometry Dash Meltdown</a>
+          <a href="#world">Geometry Dash World</a>
+          <a href="#subzero">Geometry Dash Sub zero</a>
+        </div>
+      </div>
+    
+      <div class="dropdown">
+        <button class="dropbtn">mas del juego</button>
+        <div class="dropdown-content derecha">
+          <a href= "http://127.0.0.1:5500/canciones.html">musicas</a>
+          <a href="http://127.0.0.1:5500/jugadores_destacados.html">jugadores leyendas</a>
+        </div>
+      </div>
+   
+
+    </div>
+
+  <div class="CAJA4">
+    <h1>Geometry Dash</h1>
+    <p>GD mas conocido como geometry dash es un juego desarrollado por una persona llamado robert topala mas conocido
+      como robtob, y luego desarrollado por su empresa independiente RobTop Games. Su lanzamiento se produjo el 13 de
+      agosto de 2013 para dispositivos móviles, y el 24 de diciembre de 2014 para la plataforma de distribución digital
+      Steam.
+
+      Está basado en el videojuego The Impossible Game.
+    <h2>JUGABILIDAD</h2>
+    <P>
+      Este juego utiliza un sistema sencillo de pulsación para controlar diferentes vehículos (o de dar clic con el
+      ratón para la distribución Steam). El objetivo del juego es completar los niveles; sin embargo, si el jugador da
+      un mal salto o movimiento contra un obstáculo, tendrá que empezar el nivel desde el principio. De igual forma el
+      juego tiene el modo práctica que, a diferencia del modo normal, permite colocar checkpoints, lo que permite al
+      jugador comenzar en estos lugares en lugar del principio. El videojuego presenta 21 niveles oficiales, de los
+      cuales dieciocho se pueden jugar a partir del inicio. Las longitudes de los niveles principales en el videojuego
+      son de aproximadamente 1:20 a 1:45 minutos. Los niveles se clasifican por dificultad, desde fácil hasta «demon»;
+      en los niveles de usuarios, existen las variaciones de «Easy Demon», «Medium Demon», «Hard Demon», «Insane Demon»
+      y «Extreme Demon».
+    <h2 id="modos">MODOS DE JUEGO</h2>
+    <p>En el juego hay siete tipos de modos para jugar, cada uno denominado vehículo, y cada uno se comporta de forma
+      diferente. Estos modos incluyen el cubo, la nave, la bola, el ovni, la ola, el robot y la araña. Además, se
+      añadirá el Swing Copter que, básicamente, es lo mismo que la bola pero fusionada con la nave. En el juego hay
+      varios tipos de portales; estos permiten cambiar de vehículo, cambiar de tamaño, cambiar de gravedad, cambiar de
+      sentido, cambiar de velocidad, cambiar de posición (mediante el teletransporte) y duplicar al ícono haciendo que
+      el usuario maneje dos íconos a la vez. Los pads son objetos que al entrar en contacto con el vehículo, hacen que
+      este salte (a una distancia un poco mayor que a la de las orbes) automáticamente (a excepción del wave, que solo
+      interactúa con los pads que cambian la gravedad). Los orbes son pequeñas circunferencias que interactúan con el
+      jugador, solo si este pulsa cuando el icono pasa por su posición.</p>
+
+    <H3 id="recompensas">RECOMPENSAS</H3>
+    <p>El jugador puede recoger hasta 149 Secret Coins (monedas secretas) en distintas áreas del juego, como en los
+      niveles oficiales, en los que se pueden recoger tres por cada nivel, y que se encuentran en áreas escondidas o
+      desafiantes del mismo; y también en otras partes del juego como en los paquetes de mapas (map packs), al completar
+      uno. Cada map pack te recompensa con una secret coin al finalizar con este, excepto los demon packs, que te
+      recompensan con dos. Hasta el momento existen 70 paquetes de mapa.5 Además, existe una moneda secreta que se
+      consigue poniendo el código sparky en el The Vault. También, en la sección de los niveles oficiales deberás tocar
+      varias veces la flecha de la derecha lo más rápido que puedas, desde el inicio de los niveles hasta donde dice
+      Coming soon, por dos veces, y la moneda aparece en Coming Soon.
+
+      Una forma de recibir recompensas son los Daily Chests (Cofres Diarios), que consisten en dos cofres, uno pequeño y
+      otro grande, que entregan recompensas gratuitas cada 4 horas (cofre pequeño) y cada 24 horas (cofre grande). Estos
+      cofres pueden brindar fragmentos de poder, diamantes, llaves y orbes de mana totalmente gratis. Otra forma de
+      ganar recompensas es a través de las misiones o Quests. Una vez completadas, el jugador recibe a cambio 5, 10, o
+      15 diamantes. Las misiones consisten en recolectar cierta cantidad de estrellas, orbes de mana o monedas de
+      usuario.</p>
+    </P>
+    <h2>Niveles de Usuarios</h2>
+    <p>Los creadores han subido niveles con las diferentes dificultades ya mencionadas. Estos reciben estrellas cuando
+      es verificado por RobTop. Las monedas recolectadas en los niveles oficiales (monedas secretas) son diferentes a
+      las ganadas en niveles de usuario (monedas de usuarios), además, la recompensa de estrellas es mayor en los
+      niveles propios del juego que los hechos por los usuarios.
+    </p>
+    <h3 id="editor">Editor de Niveles</h3>
+    <p>Desde el principio del juego, ha existido el modo editor, que con el tiempo ha ido cambiando. El modo editor
+      permite a los usuarios crear sus propios niveles y hacerlos públicos, dejando que cualquiera los juegue, y solo
+      está disponible en la versión completa. Para crear, hay una gran diversidad de objetos como superficies, bloques
+      decorativos, triggers, portales, orbes, pads, objetos que matan, decoraciones variadas, entre otros. Existen tres
+      modos de editor: build (para colocar objetos), edit (para modificar la posición, rotación, etc, de un objeto ya
+      colocado) y delete (para suprimir objetos). Además, también existen las opciones en el editor; swipe, rotate, free
+      move y snap; el swipe sirve para «modo lápiz», y permite colocar o eliminar objetos deslizando el dedo o cursor
+      por la pantalla (solo funciona con el modo build o delete), el rotate permite girar objetos, el free move permite
+      mover los objetos directamente (solo funciona con el modo edit), y el snap sirve para que los objetos que se
+      coloquen se acomoden a la cuadrícula. El jugador puede poner hasta 80 000 objetos, pero a partir de los 40 000 se
+      muestra un aviso de que el nivel puede no ser apto para los dispositivos de bajo rendimiento. También el jugador
+      tiene que ser capaz de completar su propio nivel con todas las monedas de usuario, en el caso de que decidiera
+      ponerlas.</p>
+    <h2>Caracteristicas de los Niveles</h2>
+    <p>Los jugadores pueden crear niveles con longitudes variables. Según la duración, los niveles se clasifican en
+      cinco tipos.
+    <h3 id="duracion">Duracion de Niveles</h3>
+    <p>Tiny: menos de diez segundos de duración.</p>
+    <p>Short: de diez segundos a treinta segundos de duración.</p>
+    <p>Medium: de treinta segundos a un minuto de duración.</p>
+    <p>Long: de un minuto a dos minutos de duración.</p>
+    <p>XL: más de dos minutos de duración.</p>
+
+    <h3 id="publicacion">Publicacion de Niveles</h3>
+    <p>Adicionalmente, a la hora de subir un nivel a los servidores, aparece una serie de opciones. Estas se pueden
+      ignorar, pero si se utilizan, se puede guiar, ayudar o no mostrar el nivel al público; a estas opciones se acceden
+      desde un engranaje arriba a la derecha después de darle al botón de subir nivel, estas son:
+
+      Allow copy: Cualquier persona puede copiar el nivel.
+      Requires password: Esta opción solo se activa si antes ha sido activada la opción "Allow copy" y sirve para poner
+      contraseña numérica de hasta 6 dígitos (anteriormente 4 dígitos) a la opción de copiar nivel.
+      Unlisted: Solo las personas que sepan la "ID" (Se explica más adelante) del nivel podrán jugarlo o también las
+      personas que accedan desde un comentario.
+      Cada nivel de usuario lleva un ID único, que se muestra en la información del nivel. El ID sigue un orden
+      numérico, lo que los hace incambiables, y por lo tanto, no se pueden elegir. En caso de que un nivel sea
+      eliminado, el ID correspondiente se pierde para siempre. Aquellos niveles con menos de cien objetos serán
+      eliminados.
+
+      El juego guarda los niveles que el jugador entró recientemente, puede consultar hasta nueve mil niveles, y existe
+      la opción de que solo cien niveles se puedan guardar. Existen las carpetas (folders), que sirven para ordenar
+      mejor los niveles. Las carpetas están en la lista de niveles creados por el jugador y en los niveles guardados.
+
+      En la 2.2, se meterá un nuevo modo: Modo plataformero. Consiste en que el ícono no sé mueve automáticamente, sinó,
+      puedes controlarlo a tu voluntad. Este modo de juego cambia la nave que se convierte en un jetpack, y para
+      controlar el modo plataformero,</p>
+    <h2>Otros Juegos</h2>
+    <p>Dado a la popularidad del juego y al retraso en el lanzamiento de algunas versiones del juego, el creador lanzó
+      distintas versiones spin off del juego, estás conteniendo características y mecánicas preliminares de las
+      versiones futuras. Todas ellas son gratuitas, aunque sólo una se encuentra disponible para usuarios de ordenador
+      (Geometry Dash Lite); el resto siendo exclusivas de dispositivos móviles.
+    </p>
+    <h3 id="lite">Geometry Dash Lite</h3>
+    <p>Geometry Dash Lite se trata de una versión de prueba de la versión oficial, en ella, los jugadores no pueden
+      acceder a varias características, como los niveles de usuarios, el editor de niveles, los Map Packs, entre otros;
+      siendo que el apartado de crear niveles en la parte derecha de la pantalla de inicio es reemplazado por un botón
+      para obtener la versión completa; los niveles principales son limitados, aunque con cada actualización se añade
+      uno nuevo (proveniente de la versión de paga); no tiene los cofres diarios; no es accesible ninguna tienda y no se
+      puede acceder a los fragmentos de poder. Algunos logros y personalizaciones de vehículos no pueden ser obtenidos.
+    </p>
+    <h3 id="down">Geometry Dash Meltdown</h3>
+    <p>El 16 de diciembre de 2015, RobTop publicó un tráiler en YouTube de «Geometry Dash Meltdown». Tres días después
+      (19 de diciembre de 2015) es lanzado el juego para dispositivos móviles. Es un videojuego alterno gratis, con tres
+      niveles exclusivos, que duran lo mismo que en la versión comprada. Todos los niveles llevan la música de F-777. En
+      esta versión del juego también se pueden conseguir nuevos iconos, monedas secretas, logros y colores. Actualmente
+      no se puede guardar el progreso en la cuenta, pero sí se puede restaurar los datos. Se puede ingresar al The
+      Vault. Este juego fue creado en conjunto a la actualización 2.0, (que salió el 26 de agosto de 2015); como los
+      nuevos triggers y objetos de decoración.
+    </p>
+    <h3 id="world">Geometry Dash World</h3>
+    <p>El 21 de diciembre de 2016, RobTop publica un video en YouTube de «Geometry Dash World», diciendo que saldría ese
+      mismo día. Ese día RobTop lanzó el juego para dispositivos móviles, (la versión de Android fue lanzada un día
+      después). Es un videojuego alterno gratis con dos mundos (cinco niveles en cada mundo) exclusivos. Las pistas de
+      los niveles fueron realizadas por Dex Arson, F-777 y Waterflame. El juego incluye un total de diez niveles
+      distribuidos en dos islas (cinco niveles en cada uno), las islas se denominan Dashland y Toxic Factory, los cuales
+      no duran más de cuarenta segundos. Este juego creado en conjunto a la actualización 2.1, (que salió el 16 de enero
+      de 2017); como los nuevos iconos, triggers, dos tiendas, el Vault of Secrets, cofres diarios y los niveles
+      diarios. También se puede conseguir monedas de usuario completando niveles diarios que lo tengan.
+    </p>
+    <h3 id="subzero">Geometry Dash SubZero</h3>
+    <p>El 12 de diciembre de 2017, RobTop pública una imagen en Facebook de «Geometry Dash SubZero». Nueve días después
+      (21 de diciembre de 2017) es lanzado para dispositivos móviles y el video de la vista en YouTube. Es un videojuego
+      alterno gratis con tres niveles exclusivos, que duran lo mismo que duran los niveles de la versión comprada. Las
+      pistas de los niveles fueron realizadas por MDK, Bossfight y Boom Kitty. En esta versión del juego también se
+      pueden conseguir nuevos iconos, monedas secretas, logros y colores. Se puede cargar la partida del jugador. No se
+      puede ingresar a ninguna bóveda, ni tampoco se puede ingresar a los niveles de usuario. Este juego fue creado en
+      conjunto a la actualización 2.2; incluyendo como nuevos iconos, los triggers, y orbes inversas.Sin embargo, se han
+      filtrado versiones de este, que incluyen el modo editor con ciertas funciones de la 2.2 (todos los items, triggers
+      y bloques usados en este spin-off) y el acceso a todas las características del juego base.
+    </p>
+
+
+
+
+    </p>
+  </div>
+  <div class="CAJA5">
+    <p>El juego no se a actualizado desde 2017 y ahora a mediados de noviembre se lanzara la actualizacion de la 2.2 en
+      geometry dash algo muy esperado por todos, y si tu tambien estas interesado en saber cuando saldra la 2.2 aqui
+      tienes sus redes sociales</p>
+
+  </div>
+  <div class="CAJA6">
+    <a href="https://www.instagram.com/robtopgamesofficial/?hl=es" target="_blank"><i
+        class="fa-brands fa-instagram"></i></a>
+    <a href="https://twitter.com/robtopgames?lang=es" target="_blank" rel="noopener noreferrer"><i
+        class="fa-brands fa-twitter"></i></a>
+    <a href="https://discord.com/invite/geometrydash" target="_blank" rel="noopener noreferrer"><i
+        class="fa-brands fa-discord"></i></a>
+    <a href="https://www.youtube.com/@RobTopGames" target="_blank" rel="noopener noreferrer"> <i
+        class="fa-brands fa-youtube"></i></a>
+  </div>
+  </div>
+</div>
+
+</body>
+
+</html>

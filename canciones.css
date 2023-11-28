@@ -1,0 +1,72 @@
+.sonidos{
+   
+    justify-content: space-around;
+    background-color: rgb(0, 255, 255);
+    width: 700px;
+    margin: auto;
+    padding: auto;
+    border: 4px solid;
+}
+
+.grupo_elemt{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    background-color: rgb(0, 255, 255);
+    justify-content: space-around;
+    margin: auto;
+}
+
+.grupo_easy{
+    border: 4px solid;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 255);
+}
+
+.grupo_normal{
+    border: 4px solid;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    justify-content: space-around;
+    background-color: rgb(0, 255, 0);
+}
+
+.grupo_hard{
+    border: 4px solid;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 0);
+}
+
+.grupo_harder{
+    border: 4px solid;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    justify-content: space-around;
+    background-color: rgb(255, 0, 0);
+}
+
+.grupo_insane{
+    border: 4px solid;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    justify-content: space-around;
+    background-color: rgb(255, 0, 255);
+}
+
+.grupo_demon{
+    border: 4px solid;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    justify-content: space-around;
+    background-color: rgb(148, 5, 5);
+}
+
+body{
+background-image: url(https://i.pinimg.com/564x/d3/cf/fe/d3cffe769e8768a5bb58ba17abd1b57b.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
